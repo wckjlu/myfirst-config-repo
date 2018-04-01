@@ -21,9 +21,9 @@ persistence:
    # jdbc配置 (默认是每个微服务一个数据库,子模块请按需覆盖)
     jdbc:
       driver: com.mysql.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/${spring.application.name}?useUnicode=true&characterEncoding=utf8&useSSL=false
+      url: jdbc:mysql://localhost:3306/blcms?useUnicode=true&characterEncoding=utf8&useSSL=false
       username: root
-      password: root
+      password: 123456
     plusConfig:
       #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
       idType: 0
